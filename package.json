@@ -1,0 +1,27 @@
+{
+  "name": "cpu-intensive-task-with-node-js-using-worker-threads-concept",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "single": "node src/single/index.js",
+    "multi": "node src/multi/index.js",
+    "benchmark": "node src/benchmark/benchmark.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enmfarooq85/CPU-Intensive-Task-With-Node-JS-Using-Worker-Threads-Concept.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/enmfarooq85/CPU-Intensive-Task-With-Node-JS-Using-Worker-Threads-Concept/issues"
+  },
+  "homepage": "https://github.com/enmfarooq85/CPU-Intensive-Task-With-Node-JS-Using-Worker-Threads-Concept#readme",
+  "dependencies": {
+    "express": "^5.2.1",
+    "pngjs": "^7.0.0"
+  }
+}
